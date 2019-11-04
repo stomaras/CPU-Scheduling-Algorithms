@@ -198,4 +198,10 @@ Step 6) Result placed into Monitors Buffer
                      
  56) SJF, SRTF difficult to implement because depends on burst time and burst time depends on a lot of factors which means power system 
                system capacity and all this.
-      FCFS     easy to implement , we can simply place a clock inside in our computer 
+      FCFS     easy to implement , we can simply place a clock inside in our computer
+      
+ 57) LJF Scheduling Algorithm : : - Priority based scheduling algorithm 
+                                  - Starvation problem exists ( Maybe process wait indefinitely )
+                                  - Convoy effect problem exists ( Small process waiting for larger process)
+                                  - Throughput is very less 
+                                  - Practically us very difficult to implement ( we don't know burst time)
