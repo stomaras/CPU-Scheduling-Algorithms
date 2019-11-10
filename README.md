@@ -205,3 +205,9 @@ Step 6) Result placed into Monitors Buffer
                                   - Convoy effect problem exists ( Small process waiting for larger process)
                                   - Throughput is very less 
                                   - Practically us very difficult to implement ( we don't know burst time)
+                                  
+58) Time Quantum : Maximum Allowable time a process can run without getting preemted
+
+59) Round Robin Scheduling Algorithm (Time Quantum + First Come First Served): 1) it works on the basis of a particular time quantum
+                                                                               2) Uses Queue Data Structure
+                                                                               3) Very Popular used in most of the OS Today
