@@ -211,3 +211,9 @@ Step 6) Result placed into Monitors Buffer
 59) Round Robin Scheduling Algorithm (Time Quantum + First Come First Served): 1) it works on the basis of a particular time quantum
                                                                                2) Uses Queue Data Structure
                                                                                3) Very Popular used in most of the OS Today
+                                                                               4) No starvation Problem 
+                                                                               5) No convoy effect problem
+                                                                               6) Practically Implementable not based on Burst Time
+                                                                               7) Response Time is good 
+                                                                               8) Throughput is good but not as good as SJF, SRTF
+                                                                               
