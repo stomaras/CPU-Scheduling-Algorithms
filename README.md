@@ -217,3 +217,31 @@ Step 6) Result placed into Monitors Buffer
                                                                                7) Response Time is good 
                                                                                8) Throughput is good but not as good as SJF, SRTF
                                                                                
+                                                                              
+ 60) Priority based Scheduling Algorithm : There is no definitely rule that priority Number is higher you need to give the higher                                                  priority or if priority number is lesser you need to give the higher priority it really 
+                                           depends on the problem itself.
+                                           
+ 60) Versions of Priority based Scheduling Algorithm : 1) Preemtive 
+                                                       2) Non - Preemtive
+                                                       3) On preemtive priority based scheduling algorithm and non-preemtive scheduling
+                                                          Algorithm priority based on priority number.
+                                                          
+ 62) Processes which are in I/O state and processes which are in Ready State are in different queues in Ram
+ 
+ 63) Highest Response Ration Next Scheduling Algorithm (HRRN)
+                                                            Mode: Non - Preemtive
+                                                            Response ration = (w + b) / b
+                                                            w = waiting time of a process 
+                                                            b = burst time
+                                                            Note: For every process we calculate Response Ratio 
+                                                            Increase w <=> Increase RR
+                                                            As burst time increase <=> value of response ratio decrease
+                                                            As burst time decrease <=> value of response ratio increase
+                                                            Note : Among all the processes that are in ready state the 
+                                                                   (HRRN) Scheduling Algorithm will select the process 
+                                                                   with bigger Response Ratio. So we are dealing with 
+                                                                   the throughput as well as with decrease Starvation 
+                                                                   Problem.
+                                                            
+                                                            
+                                                                               
