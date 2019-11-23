@@ -252,6 +252,10 @@ Step 6) Result placed into Monitors Buffer
              from RAM to HARD DISK.Let's assume the process which move from RAM to HARD DISK is in ready state so now goes to something
              called Suspend Ready State.if process was in I/O State then goest to something called Suspend I/O State.If complete I/O
              in HARD DISK then moved to Suspend Ready State because of lack of space
+             
+65) Scheduler is a part of a function which decides which process will be executed from the CPU next. Scheduler after decding which         process to execute next by the CPU, it will call Dispatcher Function.This function will load the contents of register to execute
+    further.
+66) Dispatcher is also a Program, is part of Operating Systems Code.
                                                             
                                                             
                                                                                
