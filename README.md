@@ -242,6 +242,16 @@ Step 6) Result placed into Monitors Buffer
                                                                    with bigger Response Ratio. So we are dealing with 
                                                                    the throughput as well as with decrease Starvation 
                                                                    Problem.
+                                                                   
+64) Every Program from New State goes to Ready State
+    Note !!! CPU needs to understanding the program, only then can go undergo I/O State.
+    Note !!! Also a program cannot go to Run State directly from Hard Disk to CPU.
+    Note !!! Maybe a new process created inside the Hard Disk let's Assume RAM is completely full and there is no space 
+             to place any process. A higher priority process is being created and needs to be executed by the CPU. In order to executed
+             by the CPU this process has to be present inside the RAM. Problem is our RAM hasn't free space. So will move one process
+             from RAM to HARD DISK.Let's assume the process which move from RAM to HARD DISK is in ready state so now goes to something
+             called Suspend Ready State.if process was in I/O State then goest to something called Suspend I/O State.If complete I/O
+             in HARD DISK then moved to Suspend Ready State because of lack of space
                                                             
                                                             
                                                                                
