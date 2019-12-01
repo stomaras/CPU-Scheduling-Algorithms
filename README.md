@@ -1,4 +1,4 @@
-# CPU-Scheduling-Algorithms
+# Operating Systems
 
 # Important Notes 
 
@@ -256,6 +256,7 @@ Step 6) Result placed into Monitors Buffer
 65) Scheduler is a part of a function which decides which process will be executed from the CPU next. Scheduler after decding which         process to execute next by the CPU, it will call Dispatcher Function.This function will load the contents of register to execute
     further.
 66) Dispatcher is also a Program, is part of Operating Systems Code.
+67) CPU registers -> faster memory in Our Computers
                                                             
                                                             
                                                                                
