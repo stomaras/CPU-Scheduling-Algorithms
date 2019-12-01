@@ -302,7 +302,24 @@ Step 6) Result placed into Monitors Buffer
           2) A process can be placed in only one partition
              and it cannot span across 2 or more partitions
           
+82) Internal Fragmentation Problem : is nothing but in Fixed Partitioning size of process maybe less than size of partition 
+                                     and so, some space within the partition has to be wasted without being utilized.
+                                    
+83) In Fixed Partitioning use partitions will always remain fixed and it will never change
 
+84) In Variable Partitioning we don't actually do any part before placing any process
+
+85) Variable Partitioning: 
+                              1) No internal fragmentation problem
+                              2) Degree of Multiprogramming is not limited by Partitions
+                              3) Size of a process is not limited by size of largest Partition rather 
+                                 it is limited by the Size of RAM.
+                                 
+86) Variable Partitioning suffers from problem of External Fragmentation
+
+87) External Fragmentation Problem exists when there is enough space from the process in the 
+    RAM, but still we are not able to do because we want to achieve the property of 
+    Contigious Allocation
 
 
                                                             
