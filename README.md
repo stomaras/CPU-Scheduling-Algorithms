@@ -320,6 +320,8 @@ Step 6) Result placed into Monitors Buffer
 87) External Fragmentation Problem exists when there is enough space from the process in the 
     RAM, but still we are not able to do because we want to achieve the property of 
     Contigious Allocation
+    
+# todo ========= Memory Allocation Algorithms ==========
 
 
                                                             
