@@ -261,6 +261,49 @@ Step 6) Result placed into Monitors Buffer
 
 68) Entire memory consists of Verbs-> We can place an instruction or we can place data
 
+69) Some computers use 2 words to present an instruction .It depends on implementation some pc use 1 word -> 4bytes , 1 word -> 8bytes
+
+70) Every verb will hava an address
+
+71) Addresses represent in Binary Format
+
+72) CPU asks for a verb from the RAM , if CPU want verb in line 4, then will ask for the address in line 4 to the RAM.Now RAM what will     do?... will get the copy of this DATA and give to the registers .Now CPU gets this DATA and process it.
+
+73) Now how the CPU requests the verb as well as how this data is move into register?
+    for this use something called bus
+    bus: Collection of wires,which are used to connect all the devices of your computer
+    CPU requests the verbs -> sends the Address through something called the Address bus
+    Data bus -> Collection of wires which are actually used to send the Data from RAM to CPU Registers
+    
+74) Memory Size => Depends on num of words => 2^M words => M bits
+
+75) Physical Address spaces => All addresses of RAM 
+    So inside the RAM replace processes: A process will have a collection of Addresses
+    Collection of addresses of a process is also called => Logical Address Space
+    
+76) What is meant by Memory Allocation?
+          We are trying to place our Proceses inside the RAM that is what we mean by Allocation
+77) Various methods used to load the processes to Main Memory
+          1) Contigious Allocation:
+                    -> Fixed Partitioning(Also called as static partitioning)
+                    -> Variable Partitioning(Also calleds as Dynamic partitioning)
+          2) Non-Contigious-Allocation
+78) In case of Fixed Partitioning let's assume divide RAM into 4 partitions ( fixed partition) will never change
+
+79) There is no External Fragmentation problem in Fixed Partitioning
+
+80) Fixed Partitioning - Disadvantages :
+          1) Internal Fragmentation problem exists
+          2) Process Size is limited by the size of the largest partition
+          3) Degree of Multiprogramming is limited by the number of partitions
+          
+81) 2 Important rules of Fixed Partitioning:
+          1) A partition can hold only one process data
+          2) A process can be placed in only one partition
+             and it cannot span across 2 or more partitions
+          
+
+
 
                                                             
                                                             
