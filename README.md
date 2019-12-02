@@ -321,7 +321,32 @@ Step 6) Result placed into Monitors Buffer
     RAM, but still we are not able to do because we want to achieve the property of 
     Contigious Allocation
     
-# todo ========= Memory Allocation Algorithms ==========
+88) Memory Allocation Algorithms : 1) First Fit
+                                   2) Next Fit
+                                   3) Best Fit
+                                   4) Worst Fit
+ 
+ 89) First Fit : A new process come into RAM from HARD DISK and whenever i found a hole, which is big enough to hold the process
+                 again i will accomodate that process
+                 
+ 90) Next Fit: is almost same with the first fit algorithm which means we start traversing the Address space and once you find out 
+               the hole which is big enough to hold the process we will accomodate a process exactly like first fit
+               .Next fit does not scan the whole list, it starts scanning the list from the next Node.
+               
+ 91) Best Fit: The Best Fit Algorithm tries to find out the smallest hole is possible in the list that can accomodate the size                          requirement of the process.
+ 
+               Using the Best Fit has some disadvantages:
+               a) It is slower because it scans the entire list every time and tries to find out the smallest hole which can satisfy
+                  the requirement of the process
+               b) Due to the fact that the difference between the whole size and the process size is very small, the holes produced 
+                  will be as small as it can not be used to load any process and therefore it remains useless.
+                  
+ 92) Worst Fit Algorithm: The worst fit algorithm scans the entire list every time and tries to find out the biggest hole in the list 
+                          which can fulfill the requirement of the process.
+                          Despite the fact that this algorithm produces the larger hole to load the other processes,this is not better
+                          approach due to the fact that it is slower because it searches the entire list every time angain and again
+                          
+ # todo binary addressing revisited
 
 
                                                             
