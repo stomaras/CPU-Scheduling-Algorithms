@@ -346,7 +346,95 @@ Step 6) Result placed into Monitors Buffer
                           Despite the fact that this algorithm produces the larger hole to load the other processes,this is not better
                           approach due to the fact that it is slower because it searches the entire list every time angain and again
                           
- # todo binary addressing revisited
+ # Binary addressing revisited
+ 
+ so -> Ho -> Fo
+          -> F1
+ so->  H1 -> F2
+          -> F3
+ s1 -> H2 -> F4
+          -> F5
+ s1->  H3 -> F6
+          -> F7
+ s2 -> H4 -> F8
+          -> F9
+ s2->  H5 -> F10
+          -> F11
+ s3 -> H6 -> F12
+          -> F13
+ s3->  H7 -> F14
+          -> F15
+ 
+ Let us assume we have four streets againsts creates a city has four streets i'am naming the streets->So
+                                                                                                    ->S1                          
+                                                                                                    ->S2
+                                                                                                    ->S3
+  Every Street has 2 houses (00)so -> H0
+                                   -> H1
+                               
+                            (01)s1 -> H2
+                                   -> H3
+                               
+                            (10)s2 -> H4
+                                   -> H5
+                               
+                            (11)s3 -> H6
+                                   -> H7
+                               
+  Every house has 2 floors and maintaining the floors...
+  
+  H0 -> F0 (0000)
+     -> F1 (0001)
+     
+  H1 -> F2 (0010)
+     -> F3 (0011)
+     
+  H2 -> F4 (0100)
+     -> F5 (0101)
+     
+  H3 -> F6 (0110)
+     -> F7 (0111)
+     
+  H4 -> F8 (1000)
+     -> F9 (1001)
+     
+  H5 -> F10 (1010)
+     -> F11 (1011)
+     
+  H6 -> F12 (1100)
+     -> F13 (1101)
+     
+  H7 -> F14 (1110)
+     -> F15 (1111)
+     
+     
+I can split this address 1001 in 2 parts 
+
+For Example here there are 4 streets 
+
+1001 - > 10 indicate street number 
+     ->  0 indicate house number 
+     ->  1 indicate floor number
+     
+In order to number 2 houses we need exactly 1 bit
+
+Byte Addressable System : means every byte which is present in our RAM will be given an address
+
+Assume we have 4 partitions ... Now in order to indicate 4 partitions 2^2 partitions -> we need exactly 2 bits
+
+for each byte we need 4 bits, there are 4 partitions we need exactly 2 bits to address a partition , taken first 2 bits 
+,we taken the partition number .Every partition has exactly 4 bytes and in order to address 4 bytes you need 2 bits
+
+(_0_ _0_)( _1_ _1_)
+   |        |
+Partition Bytes
+Number    Number
+   |        |
+   0        3
+   
+   This is the basic idea of paging 
+
+          
 
 
                                                             
