@@ -350,28 +350,37 @@ Step 6) Result placed into Monitors Buffer
  
  so -> Ho -> Fo
           -> F1
+          
  so->  H1 -> F2
           -> F3
+          
  s1 -> H2 -> F4
           -> F5
+          
  s1->  H3 -> F6
           -> F7
+          
  s2 -> H4 -> F8
           -> F9
+          
  s2->  H5 -> F10
           -> F11
+          
  s3 -> H6 -> F12
           -> F13
+          
  s3->  H7 -> F14
           -> F15
- 
+          
  Let us assume we have four streets againsts creates a city has four streets i'am naming the streets->So
                                                                                                     ->S1                          
                                                                                                     ->S2
                                                                                                     ->S3
-  Every Street has 2 houses (00)so -> H0
+  Every Street has 2 houses
+                            
+                            (01)s0 -> H0
                                    -> H1
-                               
+                                   
                             (01)s1 -> H2
                                    -> H3
                                
@@ -382,6 +391,7 @@ Step 6) Result placed into Monitors Buffer
                                    -> H7
                                
   Every house has 2 floors and maintaining the floors...
+  
   
   H0 -> F0 (0000)
      -> F1 (0001)
@@ -432,7 +442,11 @@ Number    Number
    |        |
    0        3
    
-   This is the basic idea of paging 
+   This is the basic idea of paging ...
+   
+ # todo Example to explain binary addressing concepts  
+   
+   
 
           
 
