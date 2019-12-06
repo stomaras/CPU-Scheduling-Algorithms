@@ -1,5 +1,7 @@
 # Operating Systems
 
+# Operating Systems Part 1
+
 # Important Notes 
 
 1) Any I/O Device will have a buffer(memory or register) associated with it 
@@ -486,7 +488,7 @@ Why External Fragmentation happening here ?
           No External Fragmentation Problem 
           that is what i mean by Paging.
           
-# to do Operating Systems Part 2
+# Operating Systems Part 2
    
    
 
