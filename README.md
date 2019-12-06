@@ -444,7 +444,49 @@ Number    Number
    
    This is the basic idea of paging ...
    
- # todo Example to explain binary addressing concepts  
+ Byte Addresable System: Every Byte will be given a unique address
+ 
+ Let us assume RAM is divided into 64 partitions 
+        assume it is a byte addresable System 
+        assume we are using fixed partitioning
+        
+ RAM Size -> 4GB -> 2^2 x 2^30 BYtes = 3^32 Bytes , So i need 32bits I need
+ 
+ Our Address will have length of 32 bits 
+ 
+ How many bytes a Single Partition will have ?
+ 
+ 2^32 Bytes / 64 Partitions = 2^26 Bytes/Partition 
+ 
+ 2^6 partitions => Each partition will have 6 bits.
+ 
+ In Computer science Everything will be given in terms of 2^O
+ 
+ Can we solve the problem of external fragmentation ?
+ 
+          We use 2 techniques:
+                    
+                    1) Compaction
+                    
+                    2) Paging 
+                    
+ With Compaction you can make 
+ 
+                              -> hole storage 
+                              
+                              -> occupied space
+                              
+The disadvantage with compaction is that need to write lines of code ,so CPU efficiency decrease 
+We don't need any code to copy the data from one place to another, so we go for something called as Paging 
+
+Why External Fragmentation happening here ? 
+
+          We need to put process in contigious addresses 
+          But in case if i go for Non-Contigious-Allocation 
+          No External Fragmentation Problem 
+          that is what i mean by Paging.
+          
+# to do Operating Systems Part 2
    
    
 
