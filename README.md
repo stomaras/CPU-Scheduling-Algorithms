@@ -1,3 +1,10 @@
+# Computer Architecture and Organization Part 1  - Cache Memory 
+
+Need for cache Memory 
+
+Central Process Unit : Main Functionality of the CPU is executing Programms.Any Software using your Computer it needs execution by CPU
+
+
 # Operating Systems
 
 # Operating Systems Part 1
